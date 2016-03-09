@@ -177,9 +177,18 @@ header .exp-name {
   color: #2a363b;
 }
 
+ ul.companies {
+  padding-left: 0;
+}
+
 .companies li {
-  display: inline-block;
+  display: inline;
   margin: 3px;
+}
+
+.companies img {
+  height: 20%;
+  width: 30%;
 }
 
 /* Styles for larger screens */
